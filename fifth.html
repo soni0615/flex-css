@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <style>
+        .layout {
+            position: relative;
+            width: 1460px;
+            height: 1100px;
+            left: 5px;
+            background: #FFFFFF;
+
+        }
+
+        .leftmenu {
+            position: absolute;
+            width: 168.31px;
+            height: 81.11px;
+            top: 18.69px;
+            left: 101.39px;
+            padding: 0px 0px 0px 0px;
+
+        }
+
+        .rightmenu {
+            position: relative;
+            width: 321.81px;
+            height: 81.88px;
+            top: 24.69px;
+            left: 398.46px;
+
+        }
+
+        .rightmenu2 {
+            position: relative;
+            left: -62px;
+
+        }
+
+
+        .listitem {
+            padding: 7px;
+            display: inline;
+        }
+
+        .listitems2 {
+
+            display: inline;
+            margin: 12px;
+        }
+
+        .btn1 {
+            background-color: #FFFFFF;
+            color: #000;
+            border-radius: 6px;
+            height: 29px;
+            width: 50px;
+        }
+
+        .btn2 {
+            background-color: #FFFFFF;
+            color: #000;
+            border-radius: 6px;
+            height: 29px;
+            width: 60px;
+        }
+
+        .btn3 {
+            background-color: #FFFFFF;
+            color: #000;
+            border-radius: 6px;
+            height: 29px;
+            width: 90px;
+        }
+
+        .btn:hover {
+            background-color: rgb(250, 80, 18);
+            color: #FFFFFF;
+        }
+
+        .image {
+            width: 696px;
+            height: 1036px;
+            left: 764px;
+
+        }
+
+        .heading1 {
+            font-weight: 1000;
+            font-size: 45px;
+            position: relative;
+            width: 438px;
+            height: 118.08px;
+            top: 71.06px;
+            left: 110.39px;
+            font-family: 'Roboto', sans-serif;
+
+        }
+
+        h2 {
+            position: relative;
+            left: 83px;
+            padding-left: 26px;
+            display: inline;
+        }
+
+        .heading2 {
+            font-size: 30px;
+            color: rgb(5, 186, 5);
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .heading3 {
+            font-size: 30px;
+
+            color: rgb(248, 80, 8);
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .heading4 {
+            font-size: 30px;
+
+            color: rgb(7, 7, 122);
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .traininfo {
+            position: absolute;
+
+            width: 603.22px;
+            height: 44.61px;
+            top: 384.79px;
+            left: 110.39px;
+            gap: 20.28px;
+
+        }
+
+        .btn4 {
+            position: relative;
+            width: 178.89px;
+            height: 44.61px;
+            border: 1px solid #213D77;
+            padding: 10.14px, 15.21px, 10.14px, 15.21px;
+            border-radius: 5.07px;
+            gap: 10.14px;
+            background: #213D77;
+            color: #FFFFFF;
+            font-family: Inter;
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 22px;
+            letter-spacing: 0em;
+            text-align: left;
+
+
+        }
+
+        .btn5 {
+            top: 2px;
+            position: relative;
+            width: 164.89px;
+            height: 44.61px;
+            border-radius: 5.07px;
+            border: 1.01px;
+            gap: 10.14px;
+            background: linear-gradient(0deg, #FFFFFF, #FFFFFF);
+            font-family: Inter;
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 22px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: #333333;
+            border: 1.07px solid #33333380;
+        }
+
+        .btn6 {
+            top: 2px;
+            position: relative;
+            width: 218.84px;
+            height: 44.61px;
+            border-radius: 5.07px;
+            border: 1.01px;
+            gap: 10.14px;
+            background: linear-gradient(0deg, #FFFFFF, #FFFFFF);
+            border: 1.01px solid #33333380;
+            font-family: Inter;
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 22px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: #333333;
+
+
+        }
+
+        .ticketimg {
+            position: relative;
+            top: 5px;
+            left: -2px;
+            width: 24.33px;
+            height: 24.33px;
+            padding: 4.06px, 2.03px, 4.06px, 2.03px;
+
+        }
+
+        .tickimg {
+            position: relative;
+            left: -4px;
+            top: 7px;
+
+        }
+
+        .chartimg {
+            position: relative;
+            top: 3px;
+            left: -4px;
+        }
+
+        .trainstatus {
+            position: absolute;
+            width: 618.47px;
+            height: 116.6px;
+            top: 518.1px;
+            left: 100.39px;
+            border: 1.01px solid #3333331A;
+
+        }
+
+        .from {
+            position: relative;
+            width: 37px;
+            height: 18px;
+            top: 5.37px;
+            left: 50.25px;
+            opacity: 0.8px;
+            font-family: Inter;
+            font-size: 15px;
+            font-weight: 400;
+            line-height: 18px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: #333333;
+
+
+        }
+
+        .imgfrom {
+            position: relative;
+            width: 20.28px;
+            height: 20.28px;
+            top: -17.36px;
+            left: 35.76px;
+            padding: 0px, 5.34px, 0px, 5.32px;
+
+        }
+        .bangalore2{
+            width: 126px;
+height: 31px;
+top: -12.68px;
+left: -6.25px;
+font-family: Inter;
+font-size: 25px;
+font-weight: 700;
+line-height: 31px;
+letter-spacing: 0em;
+text-align: left;
+color: #333333;
+
+        }
+        .departuretrain{
+            position: relative;
+            width: 32.44px;
+height: 32.44px;
+top: 6.72px;
+left:-11.67px;
+
+        }
+        .ksrbangalore{
+
+        
+            position: relative;
+            width: 118px;
+height: 18px;
+top: -17.17px;
+left: 53.25px;
+opacity: 0.8px;
+font-family: Inter;
+font-size: 15px;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: left;
+color: #333333;
+
+        }
+.arrow{
+    position: relative;
+    width: 48.67px;
+height: 48.67px;
+top: -96.57px;
+left: 227.29px;
+border-radius: 50.69px;
+
+}
+
+.to{
+    position: relative;
+    width: 18px;
+height: 18px;
+top: -183.37px;
+left: 375.9px;
+font-family: Inter;
+font-size: 15px;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: left;
+color: #333333;
+
+
+}
+
+.imgto{
+    position: relative;
+    width: 20.28px;
+height: 20.28px;
+top: -17.36px;
+left: 15.15px;
+padding: 0px, 5.34px, 0px, 5.32px;
+
+}
+
+.kasaragod{
+    width: 134px;
+height: 31px;
+top: -197.68px;
+left: 319.9px;
+font-family: Inter;
+font-size: 25px;
+font-weight: 700;
+line-height: 31px;
+letter-spacing: 0em;
+text-align: left;
+color: #333333;
+
+
+}
+.ksdkasaragod{
+    position: relative;
+    width: 124px;
+height: 18px;
+top: -206.17px;
+left: 378.9px;
+opacity: 0.8px;
+font-family: Inter;
+font-size: 15px;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: left;
+
+    color: #333333;
+
+}
+.destinationtrain{
+    position: relative;
+    width: 32.44px;
+    top: 7px;
+height: 32.44px;
+left: -6.24px;
+
+}
+.trainbooking{
+    position: absolute;
+    width: 618.47px;
+height: 116.6px;
+top: 654.97px;
+left: 101.39px;
+border-radius: 10.14px;
+border: 1.01px solid #3333331A;
+}
+.date{
+    position: relative;
+    width: 34px;
+height: 18px;
+top: 5.25px;
+left: 56.25px;
+opacity: 0.8px;
+font-family: Inter;
+font-size: 15px;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: left;
+color: #333333;
+
+
+}
+.dateicon{
+    position: relative;
+    width: 20.28px;
+height: 20.28px;
+top: -20.25px;
+left: 34.72px;
+padding: 0px, 5.34px, 0px, 5.32px;
+
+}
+.calenderdate{
+    position: relative;
+    width: 126px;
+height: 31px;
+top: -12.56px;
+left: 57.25px;
+font-family: Inter;
+font-size: 25px;
+font-weight: 700;
+line-height: 31px;
+letter-spacing: 0em;
+text-align: left;
+color: #333333;
+
+}
+.tuesday{
+    width: 61px;
+height: 18px;
+top: -32.04px;
+left: 61.25px;
+opacity: 0.8px;
+font-family: Inter;
+font-size: 15px;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: left;
+color: #333333;
+position: relative;
+
+
+}
+.calender{
+    position: relative;
+    width: 32.44px;
+top: -61.73px;
+left: -39.67px;
+
+}
+
+.trainclass{
+    position: relative;
+    width: 40px;
+height: 18px;
+top: -125.25px;
+left: 256.17px;
+opacity: 0.8px;
+font-family: Inter;
+font-size: 15px;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: left;
+color: #333333;
+
+
+}
+.trainclassicon{
+    position: relative;
+    width: 20.28px;
+height: 20.28px;
+top: -16.25px;
+left: 37.71px;
+padding: 0px, 5.34px, 0px, 5.32px
+
+}
+.seat{
+    position: relative;
+    width: 36px;
+height: 31px;
+top: -180.56px;
+left: 256.17px;
+font-family: Inter;
+font-size: 25px;
+font-weight: 700;
+line-height: 31px;
+letter-spacing: 0em;
+text-align: left;
+color: #333333;
+
+
+}
+.actier{
+    position: relative;
+    width: 67px;
+height: 18px;
+top: -163.04px;
+left: 256.17px;
+opacity: 0.8px;
+font-family: Inter;
+font-size: 15px;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: left;
+color: #333333;
+
+}
+.threedot{
+    position: relative;
+    width: 32.44px;
+height: 31.06px;
+top: 2.87px;
+left: -35.44px;
+
+}
+
+.seattype{
+    position: relative;
+    width: 73px;
+height: 18px;
+top: -258.25px;
+left: 439.89px;
+opacity: 0.8px;
+font-family: Inter;
+font-size: 15px;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: left;
+color: #333333;
+
+
+}
+
+.seattypeicon{
+    position: relative;
+    width: 20.28px;
+height: 20.28px;
+top: -16.25px;
+left: 71.89px;
+padding: 0px, 5.34px, 0px, 5.32px;
+
+}
+.widgeticon{
+    position: relative;
+    width: 32.44px;
+height: 31.06px;
+top: -65.82px;
+left: -34.22px;
+
+}
+.tatkal{
+    position: relative;
+    width: 100px;
+height: 31px;
+top: -276.56px;
+left: 439.89px;
+font-family: Inter;
+font-size: 25px;
+font-weight: 700;
+line-height: 31px;
+letter-spacing: 0em;
+text-align: left;
+color: #333333;
+
+}
+.actiersecond{
+    position: relative;
+    width: 67px;
+height: 18px;
+top: -296.04px;
+left: 444.89px;
+opacity: 0.8px;
+font-family: Inter;
+font-size: 15px;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: left;
+color: #333333;
+
+
+}
+.trainsearchbutton{
+    border: 1px solid rgb(18, 170, 10);
+    background-color: rgb(18, 170, 10);
+    color: #FFFFFF;
+    border-radius: 5px;
+    position: absolute;
+    width: 618.47px;
+height: 81.11px;
+top: 828.56px;
+left: 101.39px;
+border-radius: 10.14px;
+
+}
+.trainsearchtwo{
+    background-color: rgb(18, 170, 10);
+    color: #FFFFFF;
+border: 5px solid  rgb(18, 170, 10);
+font-size:30px;
+    position: relative;
+    width: 210.89px;
+height: 31px;
+top: 25.9px;
+left: 205.18px;
+padding: 0px, 0px, 0px, 0px;
+font-weight: bolder;
+
+}
+.rightarrow{
+    position: relative;
+    top:-30px;
+    left:125px;
+}
+.trainimage{
+    top: -316px;
+    position: relative;
+    width: 696px;
+height: 1036px;
+left:-36px;
+
+    float: right;
+}
+
+    </style>
+</head>
+
+<body>
+    <div class="layout">
+        <div class="leftmenu">
+            <img src="IRCTCLogo.png" alt="image">
+            <img src="indianRailwaysLogo.png" alt="image">
+        </div>
+        <nav class="rightmenu">
+            <ul style="list-style: none;">
+                <li class="listitem"> Ask Disha</li>
+                <li class="listitem">Contact Us</li>
+                <li class="listitem">Alerts</li>
+            </ul>
+            <nav class="rightmenu2">
+                <ul style="list-style: none;">
+                    <li class="listitems2"><button class="btn btn1">Login</button></li>
+                    <li class="listitems2"><button class="btn btn2">Register</button></li>
+                    <li class="listitems2"><button class="btn btn3">Agent Login</button></li>
+                </ul>
+            </nav>
+        </nav>
+        <div class="title">
+            <h1 class="heading1">Indian Railways</h1>
+            <h2 class="heading2">Safety</h2>
+            <h2 class="heading3">Security</h2>
+            <h2 class="heading4">Punctuality</h2>
+        </div>
+
+        <div class="traininfo">
+            <button class="btn4"><img class="ticketimg" src="ticket_icon.png" alt="image">BOOK Ticket</button>
+            <button class="btn5"><img class="tickimg" src="tick_icon.png" alt="">PNR Status</button>
+            <button class="btn6"><img class="chartimg" src="chart_icon.png" alt="">Charts/Vacancy</button>
+        </div>
+
+        <div class="trainstatus">
+            <div>
+                <h3 class="from">From<img class="imgfrom" src="expand_more_icon.png" alt="image"></h3>
+                <h2 class="bangalore2"><img class="departuretrain" src="departure_train_icon.png" alt="">Bangalore</h2>
+                <p class="ksrbangalore">KSR-Bangalore</p>
+             </div>
+          <img class="arrow" src="to_from_arrow.png" alt="image">
+                
+          <div>
+            <h3 class="to">To <img class="imgto" src="expand_more_icon.png" alt="image"></h3>
+<h2 class="kasaragod"><img class="destinationtrain" src="destination_train_icon.png" alt="">Kasaragod</h2>
+<p class="ksdkasaragod">KSD-Kasaragod</p>
+ </div>
+
+
+
+
+
+        </div>
+<div class="trainbooking">
+<div>
+<p class="date">Date <img class="dateicon" src="expand_more_icon.png" alt="image"></p>
+<h3 class="calenderdate">01 Aug 23 <img class="calender" src="calander-icon.png" alt="image"></h3>
+<p class="tuesday">Tuesday</p>
+</div>
+
+<div>
+    <p class="trainclass">Class <img class="trainclassicon" src="expand_more_icon.png" alt="image"></p>
+    <h3 class="seat"><img class="threedot" src="threedot-icon.png" alt="image">3A</h3>
+    <p class="actier">AC 3 Tier</p>
+</div>
+
+<div>
+    <p class="seattype">Seat Type <img class="seattypeicon" src="expand_more_icon.png" alt="image"></p>
+    <h3 class="tatkal">TATKAL <img class="widgeticon" src="widgets_icon.png" alt=""></h3>
+<p class="actiersecond">AC 3 Tier</p>
+</div>
+
+
+
+
+
+
+</div>
+
+<div class="trainsearchbutton">
+ <Button class="trainsearchtwo">Search Train
+    <img  class="rightarrow" src="right-arrow-icon.png" alt="image">
+ </Button>
+
+</div>
+<div >
+    <img class="trainimage" src="heroImage.png" alt="image">
+</div>
+
+
+
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,9 @@
+1.Justify-content:-Justify-content is used for aligning the items horizontally.We have values like :-flex-end,flex-start,center,space-between etc...It is a parent property.Justify-content makes the website flexible and responsive.
+
+2.Align-Items:-Align-items is used for aligning the items vertically.It is a parent property.Some of the values of align-items are :flex-start,flex-end,center etc....Its very helpful for creating flexible and responsive designs.
+
+3.Gap:-Gap is used for gape the gap in the all the directions its fixed.It controls the gap in horizontal direction as well as vertical directions also.Its a convient way to add space between the items.
+
+4.Flex-Direction:-Flex-direction is used for deciding the main axis means row goes in horizontal-direction and column goes in vertical-direction.Many values in the flex-direction some of them are :row-reverse,column-reverse it works on the parent.We can use flex-direction with the align-items and justify-content.
+
+5.Flex-wrap:-It just wraps the items within the flex.Flex-wrap property has three values:-no-wrap,wrap,wrap-reverse.It is a essential property to create responsive and flexible layouts.

@@ -1,0 +1,19 @@
+CSS Flexbox:-Css flexbox is 1d(1-dimensional)layout.Its purpose is to make the website responsive and gave the structured layout to the website.Flexbox works vertically and horizontally.Some of the flex properties are:-
+                                           Flexbox
+   ___________________________________________↓__________________________________________       ↓                                                                                    ↓       
+ Parent                                                                               Child     
+a.Flex-wrap                                                                         a.Order
+b.Justify-content                                                                b.Align-self  
+c.Align-items                                                                    c.Flex-Grow
+d.align-content                                                                 d.Flex-Shrink   
+
+CSS Grid:-Css Grid is used for 2-d layouts.It is suitable for horizontally as well as vertically it is used for creating complex websites.
+                                            Grid
+   ___________________________________________↓__________________________________________       ↓                                                                                    ↓       
+ Parent                                                                               Child     
+a.grid-template-column                                                   a.grid-column-start
+b.grid-template-row                                                        b.grid-column-end
+c.justify-content                                                             c.justify-self
+d.align-content etc...                                                       d.align-self etc..
+        
+flex and grid both are useful it depends upon the necessity which one to choose.If i am talking about flex so flex is flexible and easy to use but when it comes to grid it is bit difficult to learn compare then flex but it is powerful both have advantages as well as disadvantages also usage depends upon the need of the work.
